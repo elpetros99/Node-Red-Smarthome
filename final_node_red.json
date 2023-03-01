@@ -1,0 +1,21 @@
+[
+    {
+        "id": "172b5be02e99bea1",
+        "type": "chatbot-message",
+        "z": "50eceeac338e5761",
+        "name": "sendMsg",
+        "message": [
+            {
+                "message": "Chatbot available commands.\n\n\"/help\": List available commands\n\nTo get the latest measurement from sensors and device status:\n\"/TH1\" or \"/TH2\": Display latest temperature measurement from TH1 or TH2.\n\"/HVAC1\" or \"/HVAC2\": Display latest energy measurement from HVAC1 or HVAC2 and the status of the device.\n\"/MiAC1\" or \"/MiAC2\": Display latest energy measurement from MiAC1 or MiAC2 and the status of the device.\n\"/Etot\": Display latest total energy measurement from Etot.\n\"/W1\": Display latest water measurement from W1 and the status of the device.\n\"/alarm\": Display status of the alarm.\n\nTo change the status of a device:\n\"/HVAC1_comp\" or \"/HVAC2_comp\": Change the status of the aircondition devices.\n\"/MiAC1_comp\" or \"/MiAC2_comp\": Change the status of the other electric devices.\n\"/W1_comp\": Change the status of the water consumption device.\n\"/alarm_comp\": Arm or disarm alarm.\n\nThe above commands should always return a message."
+            }
+        ],
+        "language": "none",
+        "x": 890,
+        "y": 2200,
+        "wires": [
+            [
+                "ac09a6d05410a88a"
+            ]
+        ]
+    }
+]
